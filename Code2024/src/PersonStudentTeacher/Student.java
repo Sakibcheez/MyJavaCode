@@ -1,6 +1,8 @@
 
 package PersonStudentTeacher;
 
+import java.util.Arrays;
+
 
     
     public class Student extends Person 
@@ -17,11 +19,13 @@ package PersonStudentTeacher;
     }
 
     public void addCourseGrade(String course, int grade) {
-        // Implementation for adding course and grade
+        courses[numCourses] = course;
+        grades[numCourses] = grade;
+        numCourses++;
     }
 
     public void printGrades() {
-        // Implementation for printing grades
+        System.out.println("Your Grade is " +Arrays.toString(grades));
     }
 
     public double getAverageGrade() {

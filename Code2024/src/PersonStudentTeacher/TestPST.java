@@ -13,6 +13,8 @@ public class TestPST {
         // Display student information
         System.out.println(student1);
 
+        student1.printGrades();
+        
         // Create a Teacher object
         Teacher teacher1 = new Teacher("Mr. Smith", "456 Elm St");
         teacher1.addCourse("Computer Science");
