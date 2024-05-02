@@ -13,12 +13,12 @@ public class Teacher extends Person {
     }
 
     public boolean addCourse(String course) {
-        // Implementation for adding course
+        
         return false;
     }
 
     public boolean removeCourse(String course) {
-        // Implementation for removing course
+       
         return false;
     }
 
