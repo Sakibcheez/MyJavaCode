@@ -7,10 +7,12 @@ public class GeometricObject {
       private String color;
     private boolean filled; 
     
+    //constructor-1
     public GeometricObject()
     {
     }
 
+    //constructor-2
     public GeometricObject(String color, boolean filled) {
         this.color = color;
         this.filled = filled;

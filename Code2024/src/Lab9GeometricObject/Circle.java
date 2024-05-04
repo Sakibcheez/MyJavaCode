@@ -15,31 +15,34 @@ public class Circle extends GeometricObject {
      this.radius = radius ;
     }
     
-      public Circle (double radius, String color, boolean filled)
+    public Circle (double radius, String color, boolean filled)
       {
        super(color,filled);
        this.radius = radius;
        
       }
    
-      public double getPerimeter()
-      {
+    public double getPerimeter()
+       {
           return 2*Math.PI*radius;
        }
-      public double getDiameter()
-              
+      
+    public double getDiameter()        
       {
           return 2*radius;
       }
+    
     public double getArea()
-    {
-    return radius*radius*Math.PI;
-    }
+      {
+          return radius*radius*Math.PI;
+      }
+    
+    //print method
     
     public void printCircle()
     {
         System.out.println("Radius is : " +radius);
-        System.out.println("Color is :" +super.getColor());
+        System.out.println("Color is :" +super.getColor());  // super class mothod use 
         System.out.println("Perimeter is :" +getPerimeter());
         System.out.println("Diameter is :" +getDiameter());
         System.out.println("Area is :" +getArea());  

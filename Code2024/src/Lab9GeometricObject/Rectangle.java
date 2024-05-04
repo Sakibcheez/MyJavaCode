@@ -2,13 +2,14 @@
 package Lab9GeometricObject;
 
 
-
+//inheritance so use extends keyword 
 public class Rectangle extends GeometricObject {
     
     private double width;
     private double height;
     
-    public Rectangle(){}
+    public Rectangle(){
+    }
 
     public Rectangle(double width, double height) {
         this.width = width;
@@ -31,17 +32,18 @@ public class Rectangle extends GeometricObject {
     
         public double getPerimeter()
       {
-         return 2*(this.height + this.width);
+         return 2*(height + width);
        }
         
       public double getDiameter()
               
       {
-          return 2*(this.height + this.width);
+          return 2*(height + width);
       }
+      
     public double getArea()
     {
-    return this.height*this.width;
+    return height*width ;
     }
     
     public void printRectangle()
@@ -49,7 +51,7 @@ public class Rectangle extends GeometricObject {
         System.out.println("Height is : " +this.height );
         System.out.println("Width is :" +this.width);
         System.out.println("Color is :" +super.getColor());
-        System.out.println("Perimeter is :" +this.getPerimeter());
+        System.out.println("Perimeter is :" +this.getPerimeter()); // this keyword use for current class 
         System.out.println("Diameter is :" +this.getDiameter());
         System.out.println("Area is :" +this.getArea());  
         
