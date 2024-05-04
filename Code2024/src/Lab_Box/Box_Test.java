@@ -24,7 +24,7 @@ public class Box_Test {
         
         System.out.println("Changed box1: " + box1.toString());
         
-        System.out.println("");
+        System.out.println(" ");
 
         System.out.println(":Equality check ");
         System.out.println("Is box1 equal to box2? " + box1.equalTo(box2));

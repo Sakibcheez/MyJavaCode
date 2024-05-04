@@ -30,7 +30,7 @@ public class Box {
         this.depth = depth;
     }
 
-    public Box(Box box) 
+    public Box(Box box) // Class Box type 
     {
         width = box.width;
         height = box.height;
