@@ -8,6 +8,8 @@ public class ArrayPractice1 {
     
     public static void main(String[] args) {
         
+        System.out.println(".....................................................................");
+        
         int x[] = new int[12];
         
         Scanner Scan = new Scanner(System.in);
@@ -26,6 +28,7 @@ public class ArrayPractice1 {
         {
             System.out.println("The number input is : "+x[i]);
         }
+        System.out.println("...........................................................................");
     }
     
 }
