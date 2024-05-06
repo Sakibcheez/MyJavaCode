@@ -56,14 +56,16 @@ public class ArrayInput {
             System.out.println("\n1D Array:");
             for (int i = 0; i < length1D; i++) {
                 System.out.print(array1D[i] + " ");
-            }   // Displaying 2D Array
+            }   
+// Displaying 2D Array
             System.out.println("\n\n2D Array:");
             for (int i = 0; i < rows2D; i++) {
                 for (int j = 0; j < columns2D; j++) {
                     System.out.print(array2D[i][j] + "  ");
                 }
                 System.out.println();
-            }   // Displaying Ragged Array
+            }   
+// Displaying Ragged Array
             System.out.println("\nRagged Array:");
             for (int i = 0; i < rowsRagged; i++) {
                 for (int j = 0; j < raggedArray[i].length; j++) {
