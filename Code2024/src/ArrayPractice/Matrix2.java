@@ -24,6 +24,12 @@ public class Matrix2 {
         System.out.println("Enter the elements of matrix B (3x3):");
         inputMatrix(scanner, B);
 
+        // Print matrices A and B
+        System.out.println("Matrix A:");
+        printMatrix(A);
+        System.out.println("Matrix B:");
+        printMatrix(B);
+
         // Perform addition, subtraction, and multiplication
         int[][] sum = addMatrices(A, B);
         int[][] difference = subtractMatrices(A, B);
@@ -112,4 +118,3 @@ public class Matrix2 {
         return sum;
     }
 }
-
