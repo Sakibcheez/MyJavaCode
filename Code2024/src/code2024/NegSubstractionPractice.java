@@ -36,7 +36,8 @@ public class NegSubstractionPractice {
 //In Java, the charAt(0) method is used to retrieve the character at the specified index within a string.
 //In this case, charAt(0) will return the character at the first position (index 0) of the string.
     // here only take y or n , no the 2nd latter 
-//try yes insteat y see result the code will run     
+//try yes insteat y see result the code will run 
+
         } while(choice == 'Y' | choice == 'y');
         
     }
