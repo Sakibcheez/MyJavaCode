@@ -1,8 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ArrayPractice;
+
+package code2024;
+
 import java.util.Scanner;
 
 /**
@@ -10,7 +8,8 @@ import java.util.Scanner;
  * @author SAKIB AHMED
  */
 public class String_Count {
-  public static void main(String[] args) {
+    
+     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // Input string from user
@@ -31,3 +30,6 @@ public class String_Count {
         System.out.println("Total letters without spaces: " + totalLetters);
     }
 }
+
+    
+
