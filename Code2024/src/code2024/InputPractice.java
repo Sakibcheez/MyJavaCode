@@ -15,8 +15,10 @@ public class InputPractice {
         System.out.println("Your name is: " +x);
         
         String y = x.toUpperCase();
+        String z = x.toLowerCase();
         
         System.out.println(y);
+        System.out.println(z);
                 
            
     }
