@@ -44,6 +44,10 @@ public class Account {
     this.balance = this.balance + amount ;
     }
     
+    /**
+     *
+     * @param amount
+     */
     public void debit(double amount)
     {
     if(this.balance >= amount)
@@ -53,6 +57,11 @@ public class Account {
         
     }
     
+    /**
+     *
+     * @return
+     */
+    @Override
     public String toString()
     {
      return "A/C no: " +this.accountNumber + ", Balance: " +this.balance ;  
