@@ -12,14 +12,18 @@ public class Array_Reverse {
         System.out.println(Arrays.toString(numberList));
         
         System.out.println("\nReverse \n");
+        
         reverseArr(numberList); 
+        
         
         for (int i = 0; i < numberList.length; i++) {
             System.out.print(numberList[i]);
             if (i < numberList.length - 1) {
                 System.out.print(", ");
             }
-        }
+            
+        } 
+        System.out.println("");
     }
       
     public static void reverseArr(int[] arr) {
