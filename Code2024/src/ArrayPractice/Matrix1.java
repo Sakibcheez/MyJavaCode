@@ -3,6 +3,8 @@ package ArrayPractice;
 
 import java.util.Scanner;
 
+// Take input of a 3x3 matrix and display the sum of its main diagonal element. For
+// the following matrix,
 
 public class Matrix1 {
     
