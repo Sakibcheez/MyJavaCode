@@ -25,6 +25,7 @@ public class NegSubstractionPractice {
         
         int substraction = x-y;
         
+        
         System.out.println("x-y is :"+substraction);
             }
         
