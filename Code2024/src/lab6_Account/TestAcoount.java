@@ -36,9 +36,7 @@ public class TestAcoount {
         System.out.println("Press 1 to Continue....");
         x = Scan.nextInt();
     }while(x==1);
-     
-     
-     
+       
     }
              
     

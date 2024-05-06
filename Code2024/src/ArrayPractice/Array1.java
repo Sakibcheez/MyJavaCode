@@ -9,7 +9,7 @@ public class Array1 {
     public static void main(String[] args) {
      
         try (Scanner scanner = new Scanner(System.in)) {
-            // Rectangular Array
+            // Rectangular Array //2D array 
             System.out.println("Rectangular Array Example:");
             System.out.println("Enter the number of rows for the rectangular array:");
             int rowsRectangular = scanner.nextInt();
@@ -34,7 +34,8 @@ public class Array1 {
                 System.out.println("Row " + (i + 1) + ": " + raggedArray[i].length);
             }  
             
-            // 2D Array
+            // 2D Array 
+            //Rectangular is same 
             System.out.println("\n2D Array Example:");
             System.out.println("Enter the number of rows for the 2D array:");
             int rows2D = scanner.nextInt();
