@@ -7,7 +7,9 @@ import javax.swing.JFrame;
 public class FrameDemo extends JFrame {
     
     public static void main(String[] args) {
-        JFrame frame = new JFrame();
+        
+        // JFrrame frame = new JFrame(); 
+        FrameDemo frame = new FrameDemo();
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
