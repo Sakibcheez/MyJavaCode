@@ -3,6 +3,7 @@ package swuingguineatbeans;
 
 import java.awt.Color;
 import java.awt.Container;
+import java.awt.Font;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
@@ -11,6 +12,7 @@ public class LabelDemo extends JFrame {
     
     private Container c;
     private JLabel userLabel, passLabel; 
+    private Font f;
     
     
     LabelDemo(){
@@ -19,17 +21,22 @@ public class LabelDemo extends JFrame {
     }
     
     public void initComponents(){
+        
         c = this.getContentPane();
         c.setLayout(null); 
         c.setBackground(Color.white);
         
+        f = new Font("Arial", Font.BOLD, 14);
+        
         userLabel = new JLabel();
         userLabel.setText("Enter Your Username :");
-        userLabel.setBounds(50, 20, 150, 50);
+        userLabel.setBounds(50, 20, 300, 50);
+        userLabel.setFont(f);
         c.add(userLabel); 
         
         passLabel = new JLabel("Enter Your Password : ");
-        passLabel.setBounds(50, 80, 150, 50);
+        passLabel.setBounds(50, 80, 300, 50);
+        passLabel.setFont(f);
         c.add(passLabel); 
         
         
