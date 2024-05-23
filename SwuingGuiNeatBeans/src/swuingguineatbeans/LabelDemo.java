@@ -12,9 +12,10 @@ import javax.swing.JLabel;
 public class LabelDemo extends JFrame {
     
     private Container c;
-    private JLabel userLabel, passLabel; 
+    private JLabel userLabel, passLabel, ImageLabel; 
     private Font f;
-    private ImageIcon Icon; 
+    private ImageIcon Icon,img;  
+    
     
     
     LabelDemo(){
@@ -24,12 +25,23 @@ public class LabelDemo extends JFrame {
     
     public void initComponents(){
         
-        Icon = new ImageIcon(getClass().getResource("images.png"));
-        this.setIconImage(Icon.getImage());
-        
         c = this.getContentPane();
         c.setLayout(null); 
         c.setBackground(Color.white);
+        
+        Icon = new ImageIcon(getClass().getResource("images.png"));
+        this.setIconImage(Icon.getImage());
+        
+        img = new ImageIcon(getClass().getResource("440288836_1246888036715640_5185305496980969451_n.jpg"));
+        ImageLabel = new JLabel(img);
+        ImageLabel.setBounds(50,200,img.getIconWidth(),img.getIconHeight());
+        c.add(ImageLabel); 
+        ImageLabel.setToolTipText("AAAAAAAAAA"); 
+        
+        
+        
+        
+        
         
         f = new Font("Arial", Font.BOLD, 14);
         
@@ -66,7 +78,7 @@ public class LabelDemo extends JFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        
         
-        frame.setBounds(200, 50, 400, 300); // uporer 3 ta ekshathe kaj korbe 
+        frame.setBounds(300, 400, 400, 300); // uporer 3 ta ekshathe kaj korbe 
         
         frame.setTitle("Kashundi Cafee");
         
