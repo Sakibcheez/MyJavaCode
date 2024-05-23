@@ -40,11 +40,17 @@ public class LabelDemo extends JFrame {
         userLabel.setForeground(Color.red);
         userLabel.setOpaque(true); 
         userLabel.setBackground(Color.blue);
+        userLabel.setToolTipText("Enter User name ");
         c.add(userLabel); 
+        
+        String s = userLabel.getToolTipText();
+        System.out.println(" " +userLabel.getText());
+        System.out.println(s);
         
         passLabel = new JLabel("Enter Your Password : ");
         passLabel.setBounds(50, 80, 300, 50);
         passLabel.setFont(f);
+        passLabel.setToolTipText("Enter your password"); 
         c.add(passLabel); 
         
         
