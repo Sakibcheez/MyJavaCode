@@ -31,10 +31,13 @@ public class TextFieldDemo extends JFrame {
         tf1.setBounds(50,50,200,50);
         c.add(tf1);
         tf1.setFont(f);
+        tf1.setForeground(Color.red);
+        tf1.setBackground(Color.green); 
         
         tf2 = new JTextField("hello sakib");
         tf2.setBounds(50, 120, 200, 50);
         c.add(tf2);
+        tf2.setForeground(Color.blue);
         
         
         
