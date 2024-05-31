@@ -17,13 +17,14 @@ public class Login extends javax.swing.JFrame {
     public Login() {
         initComponents();
     }
+    
+   
 
     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel6 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         UsernameField = new javax.swing.JTextField();
@@ -34,9 +35,7 @@ public class Login extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         BtnCancel = new javax.swing.JButton();
         BtnLogin = new javax.swing.JButton();
-
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/swuingguineatbeans/kashundi12.jpg"))); // NOI18N
-        jLabel6.setMaximumSize(new java.awt.Dimension(700, 400));
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -63,28 +62,28 @@ public class Login extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Lucida Calligraphy", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 204, 204));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Kashundi Caffee");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 560, 50));
+        jLabel1.setText("Kashundi Cafe");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 20, 560, 50));
 
         UsernameField.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         UsernameField.setCaretColor(new java.awt.Color(255, 204, 255));
         UsernameField.setDisabledTextColor(new java.awt.Color(255, 204, 255));
-        jPanel1.add(UsernameField, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 100, 240, 40));
-        jPanel1.add(PasswordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 160, 240, 40));
+        jPanel1.add(UsernameField, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 100, 240, 40));
+        jPanel1.add(PasswordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 160, 240, 40));
 
         jLabel2.setBackground(new java.awt.Color(153, 153, 0));
         jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel2.setForeground(new java.awt.Color(153, 153, 153));
         jLabel2.setText("  Username ");
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 0));
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 100, 190, 40));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 100, 130, 40));
 
         jLabel3.setBackground(new java.awt.Color(135, 181, 212));
         jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 0, 102));
+        jLabel3.setForeground(new java.awt.Color(153, 153, 153));
         jLabel3.setText("  Password");
         jLabel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 0));
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 160, 190, 40));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 160, 130, 40));
 
         jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\SAKIB AHMED\\Desktop\\images.jpeg")); // NOI18N
         jLabel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 3));
@@ -93,11 +92,11 @@ public class Login extends javax.swing.JFrame {
                 jLabel4MouseClicked(evt);
             }
         });
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 160, 50, 40));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 160, 50, 40));
 
         jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\SAKIB AHMED\\Desktop\\kashundi.png")); // NOI18N
         jLabel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 3));
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 160, 50, 40));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 160, 50, 40));
 
         BtnCancel.setText("Cancel ");
         BtnCancel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 102)));
@@ -106,7 +105,7 @@ public class Login extends javax.swing.JFrame {
                 BtnCancelActionPerformed(evt);
             }
         });
-        jPanel1.add(BtnCancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 240, 110, 40));
+        jPanel1.add(BtnCancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 220, 110, 40));
 
         BtnLogin.setText("Login");
         BtnLogin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 255)));
@@ -115,17 +114,20 @@ public class Login extends javax.swing.JFrame {
                 BtnLoginActionPerformed(evt);
             }
         });
-        jPanel1.add(BtnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 240, 110, 40));
+        jPanel1.add(BtnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 220, 110, 40));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/swuingguineatbeans/kashundi12.jpg"))); // NOI18N
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 290, 340));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 892, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 758, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 521, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
