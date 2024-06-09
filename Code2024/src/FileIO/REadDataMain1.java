@@ -5,7 +5,7 @@ import java.io.File;
 import java.util.Scanner;
 
 
-public class REadDataMain1 {
+public class ReadDataMain1 {
     
     public static void main(String[] args) {
        
