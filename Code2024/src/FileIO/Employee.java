@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
+import static java.lang.Thread.sleep;
 
 
 class Employee implements Serializable {
@@ -30,11 +31,12 @@ class Employee implements Serializable {
 }
 
     class SerializationExample {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Employee[] employees = {
             new Employee("Alice", 1),
-            new Employee("Bob", 2),
-            new Employee("Charlie", 3)
+            new Employee("Bob", 3),
+            new Employee("Charlie", 4),
+            new Employee("Sakib", 2)
         };
 
         // Serialize objects
@@ -50,6 +52,7 @@ class Employee implements Serializable {
         // Deserialize objects
         try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("employees.ser"))) {
             System.out.println("Reading objects from file:");
+            sleep(500); 
             while (true) {
                 try {
                     Employee employee = (Employee) inputStream.readObject();
