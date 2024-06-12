@@ -1,12 +1,14 @@
 
 package swuingguineatbeans;
 
-import java.awt.Color;
-import java.awt.Container;
-import java.awt.Font;
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
+import java.awt.*; 
+//import java.awt.Color;
+//import java.awt.Container;
+//import java.awt.Font;
+import javax.swing.*; 
+//import javax.swing.ImageIcon;
+//import javax.swing.JFrame;
+//import javax.swing.JLabel;
 
 
 public class LabelDemo extends JFrame {
@@ -38,11 +40,7 @@ public class LabelDemo extends JFrame {
         c.add(ImageLabel); 
         ImageLabel.setToolTipText("AAAAAAAAAA"); 
         
-        
-        
-        
-        
-        
+  
         f = new Font("Arial", Font.BOLD, 14);
         
         userLabel = new JLabel();
