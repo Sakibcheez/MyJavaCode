@@ -5,6 +5,7 @@ package Thread;
 public class Main5_Priority extends Thread {
     
     @Override
+
     public void  run(){
             System.out.println("Running Thread priority is:" +Thread.currentThread().getPriority() );
         }
